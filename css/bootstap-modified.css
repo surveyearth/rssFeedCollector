@@ -1,0 +1,42 @@
+﻿@media (min-width: 770px) {
+	.col-md-4e {
+		clear: none;
+		float: left;
+		width: 225px;
+		margin-right: 20px;
+	}
+}
+@media (min-width: 970px) {
+	.col-md-4e {
+		width: 300px;
+		margin-right: 20px;
+	}
+}
+@media (min-width: 1200px) {
+	.col-md-4e {
+		width: 360px;
+		margin-right: 30px;
+	}
+}
+
+@media (min-width: 770px) {
+	#engadgetMainPage, #fastCompanyMainPage, #mashableMainPage {
+	margin-right: -15px !important;
+	}
+}
+@media (min-width: 970px) {
+	#engadgetMainPage, #fastCompanyMainPage, #mashableMainPage {
+	margin-right: -20px !important;
+	}
+}
+@media (min-width: 1200px) {
+	#engadgetMainPage, #fastCompanyMainPage, #mashableMainPage {
+	margin-right: -30px !important;
+	}
+}
+@media (min-width: 770px) {
+	#title {
+		margin-left: 15px;
+	}
+}
+

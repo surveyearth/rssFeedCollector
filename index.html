@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Solr it</title>
+	
+    <!--<link rel="shortcut icon" href="../../assets/ico/favicon.ico">-->
+	<link href="./bootstrap-3.1.1-dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="./css/main.css" rel="stylesheet">
+	<link href="./css/bootstap-modified.css" rel="stylesheet">
+	
+</head>
+
+<body>
+
+
+<div id="container-bg">
+	<header>
+		<div class="container">
+			 <div class="col-md-12e">
+				<span class="col-md-1"><a class="menu-toggle" href="#slickbox1"><img src="./img/menu.png" alt="Home" /></a></span>
+				<span class="col-md-9" id="title">Solr it</span>
+				<span id="header-right">
+					<button>Go!</button>
+					<a class="menu-toggle" href="#slickbox1"><img style="margin-left: -4px;" src="./img/home.png" alt="Menu" /></a>
+				</span>
+			</div>
+		</div>
+	</header>
+	<div class="container" id="content-container">
+		<div class="slick-box" id="slickbox1">
+			<h4 class="col-md-12" align="center"><a class="menu-toggle" href="#slickbox2">Engadget rss feed</a></h4>
+			<div class="content-block" id="engadget"></div>	
+		
+			<h4 class="col-md-12" align="center"><a class="menu-toggle" href="#slickbox3">Fast company</a></h4>
+			<div class="content-block" id="fastCompany"></div>
+		
+			<h4 class="col-md-12" align="center"><a class="menu-toggle" href="#slickbox4">Mashable</a></h4>
+			<div class="content-block" id="mashable"></div>
+		</div>
+		
+		<div class="slick-box" id="slickbox2">
+		
+			<h4 class="col-md-12" align="center">Engadget rss feed</h4>
+			<div class="content-block" id="engadgetMainPage"></div>	
+			
+		</div>
+		<div class="slick-box" id="slickbox3">
+		
+			<h4 class="col-md-12" align="center">Fast company</h4>
+			<div class="content-block" id="fastCompanyMainPage"></div>	
+			
+		</div>
+		<div class="slick-box" id="slickbox4">
+		
+			<h4 class="col-md-12" align="center">Mashable</h4>
+			<div class="content-block" id="mashableMainPage"></div>	
+			
+		</div>
+	</div>	
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="./js/getfeed.js"></script>
+<script src="./js/menu.js"></script>
+<script src="./bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>
+	
+  </body>
+</html>
