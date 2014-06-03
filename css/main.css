@@ -1,4 +1,4 @@
-﻿body {
+body {
 	padding: 0; 
 	margin: 0; 
 	background: #333333; 
@@ -36,7 +36,6 @@ header {
 h4 {
 	background: no-repeat #333333; 
 	text-transform: uppercase; 
-	color: #008c9c; 
 	font-size: 16px; 
 	line-height: 25px;
 	text-align: center;
@@ -95,6 +94,7 @@ img {
 	text-align: center;
 	clear: both;
 	padding:0;
+	text-align: center;
 }
 .col-md-12 p {
 	margin: 3% 0 3% 0;
